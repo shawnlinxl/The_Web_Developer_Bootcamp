@@ -1,19 +1,22 @@
-/* Format Heading (Center and Font Size) */
 body {
     font-size:20px;
 }
 
+
+/* Format Heading (Center and Font Size) */
 h1 {
     font-size: 2em;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Center table and make border collapse */
 table {
     margin: auto;
     border-collapse: collapse;
 }
 
+/* Add black borders for the grid */
 tr td:nth-child(2) {
     border-left: 0.1em solid black;
     border-right: 0.1em solid black;
