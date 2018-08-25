@@ -5,15 +5,13 @@ body {
 
 h1 {
     font-size: 2em;
-    width: 5em;
-    margin: 0.5em auto;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 table {
-    width: 50%
-    padding: 0;
-    margin: 0 auto;
+    margin: auto;
+    border-collapse: collapse;
 }
 
 tr td:nth-child(2) {
