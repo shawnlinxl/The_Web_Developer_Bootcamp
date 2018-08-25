@@ -12,9 +12,6 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, #ffffff, #c0c0c0, #ffffff); }
 
-.page {
-}
-
 .post {
     margin: 1em 2em;
 }
@@ -31,7 +28,7 @@ hr {
 }
 
 /* First paragraph after title */
-.post_title + .post_body {
+.quote {
     border-left: 5px solid #9090b9;
     margin: 0;
     padding: 0.3em;
