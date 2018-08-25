@@ -1,0 +1,29 @@
+/* Format Heading (Center and Font Size) */
+body {
+    font-size:20px;
+}
+
+h1 {
+    font-size: 2em;
+    width: 5em;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    width: 50%
+    padding: 0;
+    margin: 0 auto;
+}
+
+tr td:nth-child(2) {
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
+    padding: 2em;
+}
+
+tr:nth-child(2) td {
+    border-top: 0.1em solid black;
+    border-bottom: 0.1em solid black;
+    padding: 2em;
+}
