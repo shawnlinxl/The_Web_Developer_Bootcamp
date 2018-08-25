@@ -13,23 +13,23 @@ hr {
     background-image: linear-gradient(to right, #ffffff, #c0c0c0, #ffffff); }
 
 .post {
-    margin: 1em 2em;
+    margin: 1rem 2rem;
 }
 
 .datetime {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: #008080;
     text-transform: uppercase;
-    letter-spacing: 0.25em
+    letter-spacing: 0.25rem
 }
 
 .post_title {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 /* First paragraph after title */
 .quote {
     border-left: 5px solid #9090b9;
     margin: 0;
-    padding: 0.3em;
+    padding: 0.3rem;
 }
