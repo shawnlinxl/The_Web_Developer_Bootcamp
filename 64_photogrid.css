@@ -1,0 +1,19 @@
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #303030;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 1.66%;
+    border-bottom: 2px solid #d1d1d1;
+    width: 30%;
+    padding-bottom: 3px;
+    text-transform: uppercase
+}
+
+
+
+img {
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+}
