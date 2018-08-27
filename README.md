@@ -54,3 +54,8 @@ We combine all we've learned about css so far to style a blog page.
 * Use of `<div>` tag to differentiate parts
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/67_CSS_Blog/67_Blog.html)
+
+## Lecture 81
+This is the first **Bootstrap** exercise. In this project, we've included the bootstrap `navbar` as well as using the grid system (e.g. `col-lg-4`). In addition, we've also included icons from the **Font Awesome** library.
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/81_Bootstrap_grid/81_Image_Gallery.html)
