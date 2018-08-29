@@ -17,93 +17,44 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="container">
-        <nav class="navbar fixed-top navbar-expand-sm">
-            <!-- Brand name -->
-            <a class="navbar-brand" href="#"> AlphaZen</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Nav Bar Left -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> News </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> About </a>
-                    </li>
-            </ul>
 
-            <!-- Nav Bar Right -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sign Up </i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Login <i class="fas fa-sign-in-alt"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm">
+        <!-- Brand name -->
+        <a class="navbar-brand" href="#"> AlphaZen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Nav Bar Left -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> News </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> About </a>
+                </li>
+        </ul>
+
+        <!-- Nav Bar Right -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up </i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login <i class="fas fa-sign-in-alt"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 
     <!-- Landing page text -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- TradingView Widget BEGIN -->
-                <div class="tradingview-widget-container">
-                  <div class="tradingview-widget-container__widget"></div>
-                  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>
-                  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-                  {
-                  "symbols": [
-                    {
-                      "title": "S&P 500",
-                      "proName": "INDEX:SPX"
-                    },
-                    {
-                      "title": "Nasdaq 100",
-                      "proName": "INDEX:IUXX"
-                    },
-                    {
-                      "description": "Dow 30",
-                      "proName": "DJ:DJI"
-                    },
-                    {
-                      "description": "US Dollar Index",
-                      "proName": "DXY"
-                    },
-                    {
-                      "description": "VIX",
-                      "proName": "CBOE:VIX"
-                    },
-                    {
-                      "description": "USD-CNY",
-                      "proName": "FX_IDC:USDCNY"
-                    },
-                    {
-                      "description": "USD-GBP",
-                      "proName": "FX_IDC:USDGBP"
-                    },
-                    {
-                      "description": "Gold",
-                      "proName": "TVC:GOLD"
-                    }
-                  ],
-                  "locale": "en"
-                }
-                  </script>
-                </div>
-                <!-- TradingView Widget END -->
-            </div>
-        </div>
         <div class="row">
             <div class="col-lg-12">
                 <div id="content">
@@ -115,6 +66,53 @@
             </div>
         </div>
     </div>
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container footer">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a>
+        by TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+        {
+            "symbols": [
+                {
+                    "title": "S&P 500",
+                    "proName": "INDEX:SPX"
+                },
+                {
+                    "title": "Nasdaq 100",
+                    "proName": "INDEX:IUXX"
+                },
+                {
+                    "description": "Dow 30",
+                    "proName": "DJ:DJI"
+                },
+                {
+                    "description": "US Dollar Index",
+                    "proName": "DXY"
+                },
+                {
+                    "description": "VIX",
+                    "proName": "CBOE:VIX"
+                },
+                {
+                    "description": "USD-CNY",
+                    "proName": "FX_IDC:USDCNY"
+                },
+                {
+                    "description": "USD-GBP",
+                    "proName": "FX_IDC:USDGBP"
+                },
+                {
+                    "description": "Gold",
+                    "proName": "TVC:GOLD"
+                }
+            ],
+                "locale": "en"
+        }
+    </script>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -24,12 +24,6 @@ body {
     font-weight: 700;
 }
 
-
-/* Content configuration */
-.tradingview-widget-container {
-    padding-top: 10%;
-}
-
 #content {
     color: white;
     text-align: center;
@@ -71,4 +65,9 @@ hr {
                  0px 8px 13px rgba(0,0,0,0.2),
                  0px 18px 23px rgba(0,0,0,0.4);
 
+}
+
+.footer {
+    bottom: 0%;
+    position: fixed;
 }
