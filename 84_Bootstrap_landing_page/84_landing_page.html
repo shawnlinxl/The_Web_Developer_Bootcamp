@@ -43,10 +43,10 @@
             <!-- Nav Bar Right -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign Up</a>
+                        <a class="nav-link" href="#">Sign Up </i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="#">Login <i class="fas fa-sign-in-alt"></i></a>
                     </li>
                 </ul>
             </div>
@@ -55,13 +55,51 @@
 
     <!-- Landing page text -->
     <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                    {
+                    "symbols": [
+                    {
+                        "title": "S&P 500",
+                        "proName": "INDEX:SPX"
+                    },
+                    {
+                        "title": "Nasdaq 100",
+                        "proName": "INDEX:IUXX"
+                    },
+                    {
+                        "description": "Dow Jones",
+                        "proName": "DJ:DJI"
+                    },
+                    {
+                        "description": "US Dollar Index",
+                        "proName": "INDEX:DXY"
+                    },
+                    {
+                        "description": "VIX",
+                        "proName": "CBOE:VIX"
+                    }
+                    ],
+                    "locale": "en"
+                    }
+                </script>
+                </div>
+            <!-- TradingView Widget END -->
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-lg-12">
                 <div id="content">
                     <h1>AlphaZen</h1>
                     <h3>Finding the Zen of Alpha</h3>
                     <hr>
-                    <button class="btn btn-secondary btn-lg">Start Now</button>
+                    <button class="btn btn-secondary btn-lg"> <i class="fas fa-chart-line"></i> Start Now</button>
                 </div>
             </div>
         </div>
