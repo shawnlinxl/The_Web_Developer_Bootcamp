@@ -55,45 +55,55 @@
 
     <!-- Landing page text -->
     <div class="container">
-
         <div class="row">
             <div class="col-lg-12">
                 <!-- TradingView Widget BEGIN -->
                 <div class="tradingview-widget-container">
-                    <div class="tradingview-widget-container__widget">
-                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-                            {
-                            "symbols": [
-                            {
-                                "title": "S&P 500",
-                                "proName": "INDEX:SPX"
-                            },
-                            {
-                                "title": "Nasdaq 100",
-                                "proName": "INDEX:IUXX"
-                            },
-                            {
-                                "description": "Dow Jones",
-                                "proName": "DJ:DJI"
-                            },
-                            {
-                                "description": "US Dollar Index",
-                                "proName": "INDEX:DXY"
-                            },
-                            {
-                                "description": "VIX",
-                                "proName": "CBOE:VIX"
-                            }
-                            ],
-                            "locale": "en"
-                            }
-                        </script>
-                    </div>
+                  <div class="tradingview-widget-container__widget"></div>
+                  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>
+                  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                  {
+                  "symbols": [
+                    {
+                      "title": "S&P 500",
+                      "proName": "INDEX:SPX"
+                    },
+                    {
+                      "title": "Nasdaq 100",
+                      "proName": "INDEX:IUXX"
+                    },
+                    {
+                      "description": "Dow 30",
+                      "proName": "DJ:DJI"
+                    },
+                    {
+                      "description": "US Dollar Index",
+                      "proName": "DXY"
+                    },
+                    {
+                      "description": "VIX",
+                      "proName": "CBOE:VIX"
+                    },
+                    {
+                      "description": "USD-CNY",
+                      "proName": "FX_IDC:USDCNY"
+                    },
+                    {
+                      "description": "USD-GBP",
+                      "proName": "FX_IDC:USDGBP"
+                    },
+                    {
+                      "description": "Gold",
+                      "proName": "TVC:GOLD"
+                    }
+                  ],
+                  "locale": "en"
+                }
+                  </script>
                 </div>
+                <!-- TradingView Widget END -->
             </div>
-            <!-- TradingView Widget END -->
         </div>
-
         <div class="row">
             <div class="col-lg-12">
                 <div id="content">
