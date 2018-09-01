@@ -77,3 +77,19 @@ This is the first **Bootstrap** exercise. In this project, we've included the bo
 In this Bootstrap exercise, we made a landing page for a hypothetical startup company called *AlphaZen*.
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/84_Bootstrap_landing_page/84_landing_page.html)
+
+## Lecture 95
+
+This is the first JS exercise. In it, we covered three concepts:
+
+* `var` used to store a variable
+* `prompt` to ask for a user input
+* `console.log` to log to console
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/95_JS_Stalker/95_stalker.html)
+
+## Lecture 97
+
+Exercise to calculate number of days alive. A key concept is the `<script>` is sensitive to where it is in the html script. In this exercise, since we want to display our `<h1>` and `<p>` tag before the prompt runs, we need to put the script behind these tags.
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/97_JS_DaysAlive/97_days_alive.html)
