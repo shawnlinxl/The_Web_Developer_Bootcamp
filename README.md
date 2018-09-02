@@ -93,3 +93,9 @@ This is the first JS exercise. In it, we covered three concepts:
 Exercise to calculate number of days alive. A key concept is the `<script>` is sensitive to where it is in the html script. In this exercise, since we want to display our `<h1>` and `<p>` tag before the prompt runs, we need to put the script behind these tags.
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/97_JS_DaysAlive/97_days_alive.html)
+
+## Lecture 103
+
+Evaluating conditions in Javascript. Some basic `if` statements.
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/103_JS_ifelse/103_ifelse.html)
