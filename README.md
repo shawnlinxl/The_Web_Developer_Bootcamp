@@ -99,3 +99,27 @@ Exercise to calculate number of days alive. A key concept is the `<script>` is s
 Evaluating conditions in Javascript. Some basic `if` statements.
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/103_JS_ifelse/103_ifelse.html)
+
+## Lecture 105 -114
+
+More on `while` and `for` loops in JavaScript. Some highlights:
+
+* If you already know C/C++, the looping looks exactly the same
+
+  * `while` loop:
+
+    ```javascript
+    while (i < 10) {
+        console.log(i);
+        i++;
+    }
+    ```
+
+  * `for` loop:
+    ```javascript
+    for (var i = 0; i < 10; i++) {
+        console.log(i);
+    }
+    ```
+* `Number(i)` can be used to coerce a string to number
+* `String.indexOf()` returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.
