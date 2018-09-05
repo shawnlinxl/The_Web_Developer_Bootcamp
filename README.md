@@ -145,3 +145,9 @@ Introduces the Javascript `Array` data structure. Some common methods used to ma
 More in depth todo list with forEach to print out todo list items and using `splice()` method to remove items from array.
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/136_JS_Array_forEach/136_todo.html)
+
+## Lecture 137
+
+More Javascript Functions
+
+[View Output](https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/137_JS_Array_functions/137_array_functions.js)
