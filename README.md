@@ -124,10 +124,18 @@ More on `while` and `for` loops in JavaScript. Some highlights:
 * `Number(i)` can be used to coerce a string to number
 * `String.indexOf()` returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.
 
+## Lecture 122
+
+Introduces the `function` keyword and how to write functions in Javascript.
+
+[View Output](https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/122_JS_Function/122_function.js)
+
 ## Lecture 132
 
-Introduce the Javascript `Array` data structure. Some common methods used to manipulate arrays.
+Introduces the Javascript `Array` data structure. Some common methods used to manipulate arrays.
 
 * `var my_array = []` creates an array
 * `pop` and `push`
 * `shift` and `unshift`
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/132_JS_Array/132_todo.html)
