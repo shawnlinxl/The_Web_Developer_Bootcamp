@@ -139,3 +139,9 @@ Introduces the Javascript `Array` data structure. Some common methods used to ma
 * `shift` and `unshift`
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/132_JS_Array/132_todo.html)
+
+## Lecture 136
+
+More in depth todo list with forEach to print out todo list items and using `splice()` method to remove items from array.
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/136_JS_Array_forEach/136_todo.html)
