@@ -1,27 +1,37 @@
 var movie_db = [
     {
         name: "Ocean's 8",
-        watched: true,
+        seen: true,
         rating: 4,
     },
     {
         name: "Grand Budapest Hotel",
-        watched: true,
+        seen: true,
         rating: 5,
     },
     {
         name: "Mission Impossible: Fallout",
-        watched: false,
+        seen: false,
         rating: 3,
     },
     {
         name: "The sound of music",
-        watched: true,
+        seen: true,
         rating: 5,
     }
 ];
 
-movie_db.forEach(function(entry) {
-    watched = entry.watched? "have watched" : "haven't watched";
-    console.log("You " + watched + " " + entry.name + ". It has an average rating of " +  entry.rating + " stars.");
-})
+movie_db.forEach(function(movie) {
+    
+    console.log(build_string(movie));
+});
+
+function build_string(movie) {
+
+    result = "You ";
+    result += movie.seen? "have seen \"" : "haven't seen \"";
+    result += movie.name + "\". ";
+    result += "It has an average rating of " + movie.rating + " stars.";
+
+    return result;
+}
