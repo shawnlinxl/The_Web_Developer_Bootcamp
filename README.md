@@ -157,3 +157,14 @@ More Javascript Functions
 Introduction to Javascript objects and how to nest objects within arrays and arrays within objects.
 
 [View Output](https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/144_JS_Object/144_moviesDB.js)
+
+## Lecture 152
+
+DOM (document object model) manipulation basics. There are some useful functions:
+
+* `console.dir()` convert html to Javascript object. You'll be able to see the elements thats in this object
+* document.getElementById()
+* document.getElementsByClassName()
+* document.getElementsByTagName()
+* document.querySelector()
+* document.querySelectorAll()
