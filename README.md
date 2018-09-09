@@ -168,3 +168,9 @@ DOM (document object model) manipulation basics. There are some useful functions
 * document.getElementsByTagName()
 * document.querySelector()
 * document.querySelectorAll()
+
+## Lecture 159
+
+Play with Google Page
+
+[View Output](https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/159_JS_DOM_Manipulation/159_google_page.js)
