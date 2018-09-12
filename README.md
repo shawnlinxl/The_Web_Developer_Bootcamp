@@ -174,3 +174,9 @@ DOM (document object model) manipulation basics. There are some useful functions
 Play with Google Page
 
 [View Output](https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/159_JS_DOM_Manipulation/159_google_page.js)
+
+## Lecture 161
+
+DOM Event listener `addEventListener'
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/161_JS_DOM_Event/161_Color_Toggle.html)
