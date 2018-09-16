@@ -180,3 +180,8 @@ Play with Google Page
 DOM Event listener `addEventListener'
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/161_JS_DOM_Event/161_Color_Toggle.html)
+
+## Lecture 162
+A score keeper.
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/162_JS_Scorekeeper/162_ScoreKeeper.html)
