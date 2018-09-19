@@ -1,5 +1,7 @@
 body {
     background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
 }
 
 .square {
@@ -8,20 +10,38 @@ body {
     padding-bottom: 30%;
     float: left;
     margin:  1.66%;
+    border-radius: 15%;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
 }
 
 #container {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 600px;
 }
 
 h1 {
     color: white;
-    margin: 0 auto;
+    background-color: #1c6690;
+    line-height: 1.1;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#color_display {
+    font-size: 200%;
 }
 
 #message {
-    color: #232323;
+    color: #1c6690;
+    display: inline-block;
+    width: 20%;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 #stripe {
@@ -35,8 +55,20 @@ h1 {
 }
 
 button {
-    border: 0px solid white;
-    background-color: white;
-    margin: 0 auto;
-    padding: 0 auto;
+    border: none;
+    background: none;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1c6690;
+    font-size: inherit;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #1c6690;
+    color: white;
 }
