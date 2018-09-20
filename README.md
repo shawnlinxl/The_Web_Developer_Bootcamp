@@ -201,3 +201,8 @@ More jQuery selector methods:
 * `.html()`: used to retrieve and change html code
 * `.attr()`: used to retrive and change attributes (e.g. width, type)
 * `.last()`: select the last element in the selector
+* `.val()`: extract value of input
+* `.addClass()`
+* `click()`: add click event listener
+* `keypress()`: add keypress event listener
+* `$(this)`: jQuery version of `this`
