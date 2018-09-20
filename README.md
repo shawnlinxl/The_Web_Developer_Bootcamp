@@ -185,3 +185,19 @@ DOM Event listener `addEventListener'
 A score keeper.
 
 [View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/162_JS_Scorekeeper/162_ScoreKeeper.html)
+
+## Lecture 169
+A color guessing game
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/169_JS_ColorGame/169_ColorGame.html)
+
+## Lecture 183
+Use jQuery to select `$("#id").css("color", "purple")`
+
+## Lecture 184
+More jQuery selector methods:
+
+* `.text()`L used to change text content or retrieve text content
+* `.html()`: used to retrieve and change html code
+* `.attr()`: used to retrive and change attributes (e.g. width, type)
+* `.last()`: select the last element in the selector
