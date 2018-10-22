@@ -206,3 +206,8 @@ More jQuery selector methods:
 * `click()`: add click event listener
 * `keypress()`: add keypress event listener
 * `$(this)`: jQuery version of `this`
+
+## Lecture 192
+Todo list with javascript and jquery
+
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/192_Todo_list_Project/index.html)
