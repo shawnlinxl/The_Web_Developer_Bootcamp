@@ -210,4 +210,4 @@ More jQuery selector methods:
 ## Lecture 192
 Todo list with javascript and jquery
 
-[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/192_Todo_list_Project/index.html)
+[View Output](https://htmlpreview.github.io/?https://github.com/shawnlinxl/The_Web_Developer_Bootcamp/blob/master/192_Todo_List_Project/index.html)
